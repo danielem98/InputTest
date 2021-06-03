@@ -20,7 +20,7 @@ public class Main {
                 System.out.println("Il numero maggiore e: " + n1);
             }
             else{
-                System.out.println("Il numero maggiore e: " + n1);
+                System.out.println("Il numero maggiore e: " + n3);
             }
         }
         else{
