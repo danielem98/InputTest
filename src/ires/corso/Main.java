@@ -5,6 +5,10 @@ public class Main {
 
     public static void main(String[] args) {
 	    Scanner in = new Scanner(System.in);
+	    String[] s= new String[3];
+	    s[0]="Primo";
+	    s[1]="Secondo";
+	    s[2]="Terzo";
 
 	    System.out.println("Inserisci il primo numero: ");
 	    int n1 = in.nextInt();
@@ -15,20 +19,21 @@ public class Main {
         System.out.println("Inserisci il terzo numero: ");
         int n3 = in.nextInt();
 
+
         if(n1>n2){
             if(n1>n3){
-                System.out.println("Il numero maggiore e: " + n1);
+                System.out.println("Il numero maggiore che hai inserito e il "+ s[0] + ": "+ n1);
             }
             else{
-                System.out.println("Il numero maggiore e: " + n3);
+                System.out.println("Il numero maggiore che hai inserito e il "+ s[2] + ": "+ n3);
             }
         }
         else{
             if(n2>n3){
-                System.out.println("Il numero maggiore e: " + n2);
+                System.out.println("Il numero maggiore che hai inserito e il "+ s[1] + ": "+ n2);
             }
             else{
-                System.out.println("Il numero maggiore e: " + n3);
+                System.out.println("Il numero maggiore che hai inserito e il "+ s[2] + ": "+ n3);
             }
         }
     }
